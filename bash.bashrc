@@ -16,5 +16,5 @@ get_quote() {
 quote=$(get_quote)
 
 cowsay -f eyes "$quote" | lolcat
-
+read -p "Enter your name: " user_name
 toilet -f big "${user_name}" -F gay | lolcat
