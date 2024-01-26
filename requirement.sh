@@ -7,6 +7,7 @@ apt install toilet -y
 apt install cowsay -y
 apt install nano -y
 apt install ruby -y
+apt install jq -y
 gem install lolcat
 figlet -f big Done !!! | lolcat
 echo
