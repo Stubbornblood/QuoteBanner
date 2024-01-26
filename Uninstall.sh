@@ -1,4 +1,4 @@
-folder_remove() {
+Directory_remove() {
     cd $HOME
     if [[ -e "QuoteBanner" ]]
     then
@@ -22,6 +22,6 @@ install() {
     PS1='\$ '' > /data/data/com.termux/files/usr/etc/bash.bashrc
 }
 
-directory_remove
+Directory_remove
 install
-directory_remove
+Directory_remove
