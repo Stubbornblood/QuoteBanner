@@ -9,8 +9,8 @@ apt install nano -y
 apt install ruby -y
 apt install jq -y
 gem install lolcat
-figlet -f big Done !!! | lolcat
+figlet -f Done Baby !!! | lolcat
 echo
-echo -e "[1m Now Run bash runMe.sh...!!!"
+echo -e "[1m Run bash runMe.sh...!!!"
 echo 
 echo -e "[1m[32m Developed by :[33m Shivanshu Singh"
