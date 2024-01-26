@@ -28,7 +28,16 @@ echo
 echo -e "${yellow}[1mWhat is Your Cowsay Name: "
 read varcowsay
 
-echo 'get_quote() { quote=$(curl -s "https://api.quotable.io/random" | jq -r ".content"); cowsay -f eyes "$quote"; }' > DragonSay.txt
+echo 'get_quote() {' >> DragonSay.txt
+echo '    quote=$(curl -s '\''https://api.quotable.io/random'\'' | jq -r '"'"'."content"'"'"')' >> DragonSay.txt
+echo '    echo "$quote"' >> DragonSay.txt
+echo '}' >> DragonSay.txt
+echo '' >> DragonSay.txt
+echo 'quote=$(get_quote)' >> DragonSay.txt
+echo '' >> DragonSay.txt
+echo 'cowsay -f eyes "$quote" | lolcat' >> DragonSay.txt
+
+
 echo 'toilet -f big "${varbanner}" -F gay | lolcat' > TextOp.txt
 echo 'clear' > Uninstall.txt
 

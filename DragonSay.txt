@@ -1,0 +1,11 @@
+
+
+
+echo 'get_quote() {' >> DragonSay.txt
+echo '    quote=$(curl -s '\''https://api.quotable.io/random'\'' | jq -r '"'"'."content"'"'"')' >> DragonSay.txt
+echo '    echo "$quote"' >> DragonSay.txt
+echo '}' >> DragonSay.txt
+echo '' >> DragonSay.txt
+echo 'quote=$(get_quote)' >> DragonSay.txt
+echo '' >> DragonSay.txt
+echo 'cowsay -f eyes "$quote" | lolcat' >> DragonSay.txt
