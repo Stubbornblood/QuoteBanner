@@ -12,4 +12,4 @@ figlet -f big Done !!! | lolcat
 echo
 echo -e "[1m Now Run bash runMe.sh...!!!"
 echo 
-echo -e 
+echo -e "[1m[32m Developed by :[33m Shivanshu Singh"
