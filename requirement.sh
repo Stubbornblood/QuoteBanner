@@ -2,7 +2,7 @@ clear
 apt update
 apt upgrade
 apt install figlet -y
-figlet Basic Installation
+figlet Installation
 apt install toilet -y
 apt install cowsay -y
 apt install nano -y
