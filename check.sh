@@ -17,3 +17,4 @@ get_quote() {
 quote=$(get_quote)
 
 cowsay -f eyes "$quote" | lolcat
+
