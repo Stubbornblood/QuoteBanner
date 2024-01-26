@@ -1,18 +1,18 @@
 #!/bin/bash
 
-# Function to fetch a random quote from Quotable API
+
 get_quote() {
     quote=$(curl -s 'https://api.quotable.io/random' | jq -r '.content')
     echo "$quote"
 }
 
-# Fetch a random quote
+
 quote=$(get_quote)
 
-# Display the quote using cowsay
+
 cowsay -f dragon "$quote"
 
-# Rest of your script goes here...
+
 cyan='[0;36m'
 lightgreen='[1;32m'
 red='[1;31m'
@@ -35,7 +35,7 @@ What is Your Cowsay Name[32m :
  "
 read varcowsay
 read quote
-echo  "cowsay -f eyes "$quote" | lolcat" > DragonSay.txt
+echo 'get_quote() { quote=$(curl -s "https://api.quotable.io/random" | jq -r ".content"); cowsay -f eyes "$quote"; }' | lolcat" > DragonSay.txt
 echo "toilet -f big ' $varbanner' -F gay | lolcat" > TextOp.txt
 echo
 echo "clear" > Unistall.txt
