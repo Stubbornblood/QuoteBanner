@@ -22,6 +22,6 @@ install() {
     PS1='\$ '' > /data/data/com.termux/files/usr/etc/bash.bashrc
 }
 
-folder_remove
+directory_remove
 install
-folder_remove
+directory_remove
