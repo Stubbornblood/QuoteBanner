@@ -37,8 +37,8 @@ read varcowsay
 echo  "cowsay -f eyes "$varcowsay" | lolcat" > DragonSay.txt
 echo "toilet -f big ' $varbanner' -F gay | lolcat" > TextOp.txt
 echo
-echo "clear" > Delete.txt
-cat "Delete.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+echo "clear" > Unistall.txt
+cat "Unistall.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
 cat "DragonSay.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
 ls
 cat "TextOp.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
