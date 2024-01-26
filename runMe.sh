@@ -36,7 +36,7 @@ What is Your Cowsay Name[32m :
 read varcowsay
 read quote
 echo 'get_quote() { quote=$(curl -s "https://api.quotable.io/random" | jq -r ".content"); cowsay -f eyes "$quote"; }' | lolcat" > DragonSay.txt
-echo "toilet -f big ' $varbanner' -F gay | lolcat" > TextOp.txt
+echo 'toilet -f big ' $varbanner' -F gay | lolcat' > TextOp.txt
 echo
 echo "clear" > Unistall.txt
 cat "Unistall.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
