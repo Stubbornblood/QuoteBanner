@@ -17,7 +17,7 @@ cyan='[0;36m'
 lightgreen='[1;32m'
 red='[1;31m'
 yellow='[1;33m'
-echo -e $lightgreen "[1m                Security Help For Ethical Hackers... "
+echo -e $lightgreen "[1m                Haha Boi gonna rock... "
 echo " "
 echo -e $yellow "[1m                         -Shivanshu Singh "
 echo " "
