@@ -34,7 +34,8 @@ What is Your Cowsay Name[32m :
 
  "
 read varcowsay
-echo  "cowsay -f eyes "$varcowsay" | lolcat" > DragonSay.txt
+read quote
+echo  "cowsay -f eyes "$quote" | lolcat" > DragonSay.txt
 echo "toilet -f big ' $varbanner' -F gay | lolcat" > TextOp.txt
 echo
 echo "clear" > Unistall.txt
